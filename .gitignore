@@ -1,0 +1,76 @@
+/node_modules
+.env
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Compiled and generated files
+dist/
+build/
+out/
+web_modules/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# npm, Yarn, pnpm files
+package-lock.json
+.yarn/
+.pnpm-store/
+
+# Miscellaneous
+*.tgz
+*.zip
+*.bak
+*.tmp
+
+# Temporary directories
+tmp/
+temp/
+test/tmp/
+tests/tmp/
+
+# Generated files by build tools
+/target/
+
+# User-specific files (customize as needed)
+.env*
+.env.*
+*.local
+
+# Server and database files (customize as needed)
+*.db
+*.sqlite
+*.sqlite3
+
+# Additional files for testing and development (customize as needed)
+test/coverage/
+test/.nyc_output/
